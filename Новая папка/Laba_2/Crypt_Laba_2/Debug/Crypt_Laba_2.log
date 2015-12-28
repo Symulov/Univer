@@ -1,0 +1,4 @@
+﻿  my_rand.cpp
+c:\users\aleksandr\documents\visual studio 2015\projects\crypt_laba_2\crypt_laba_2\my_rand.cpp(71): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  Crypt_Laba_2.vcxproj -> c:\users\aleksandr\documents\visual studio 2015\Projects\Crypt_Laba_2\Debug\Crypt_Laba_2.exe
+  Crypt_Laba_2.vcxproj -> c:\users\aleksandr\documents\visual studio 2015\Projects\Crypt_Laba_2\Debug\Crypt_Laba_2.pdb (Partial PDB)

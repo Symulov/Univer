@@ -1,0 +1,115 @@
+﻿Сборка начата 28.12.2015 22:12:48.
+     1>Проект "D:\Загрузка Торрент\Mental_poker-master\Mental_poker-master\Mental_Poker\Mental_Poker.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CardDeck.cpp gen_rand.cpp main.cpp Player.cpp
+         Player.cpp
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\player.cpp(57): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\player.cpp(98): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\utility(157): warning C4244: инициализация: преобразование "double" в "unsigned int", возможна потеря данных
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(600): см. ссылку на создание экземпляров функции шаблон при компиляции "std::pair<const _Kty,_Ty>::pair<unsigned int,double,void>(std::pair<unsigned int,double> &&)"
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=unsigned int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(600): см. ссылку на создание экземпляров функции шаблон при компиляции "std::pair<const _Kty,_Ty>::pair<unsigned int,double,void>(std::pair<unsigned int,double> &&)"
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=unsigned int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(723): см. ссылку на создание экземпляров функции шаблон при компиляции "void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)"
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const unsigned int,unsigned int>,void *>
+         ,            _Objty=std::pair<const unsigned int,unsigned int>
+         ,            _Ty=std::pair<unsigned int,double>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(723): см. ссылку на создание экземпляров функции шаблон при компиляции "void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)"
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const unsigned int,unsigned int>,void *>
+         ,            _Objty=std::pair<const unsigned int,unsigned int>
+         ,            _Ty=std::pair<unsigned int,double>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(872): см. ссылку на создание экземпляров функции шаблон при компиляции "void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,double>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,double> &&)"
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Tree_node<std::pair<const unsigned int,unsigned int>,void *>>
+         ,            _Ty=std::pair<const unsigned int,unsigned int>
+         ,            _Other=std::_Tree_node<std::pair<const unsigned int,unsigned int>,void *>
+         ,            _Objty=std::pair<const unsigned int,unsigned int>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xmemory0(872): см. ссылку на создание экземпляров функции шаблон при компиляции "void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,double>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,double> &&)"
+                 with
+                 [
+                     _Alloc=std::allocator<std::_Tree_node<std::pair<const unsigned int,unsigned int>,void *>>
+         ,            _Ty=std::pair<const unsigned int,unsigned int>
+         ,            _Other=std::_Tree_node<std::pair<const unsigned int,unsigned int>,void *>
+         ,            _Objty=std::pair<const unsigned int,unsigned int>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(933): см. ссылку на создание экземпляров функции шаблон при компиляции "void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,double>>(_Ty *,std::pair<unsigned int,double> &&)"
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const unsigned int,unsigned int>,void *>
+         ,            _Ty=std::pair<const unsigned int,unsigned int>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(933): см. ссылку на создание экземпляров функции шаблон при компиляции "void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,double>>(_Ty *,std::pair<unsigned int,double> &&)"
+                 with
+                 [
+                     _Other=std::_Tree_node<std::pair<const unsigned int,unsigned int>,void *>
+         ,            _Ty=std::pair<const unsigned int,unsigned int>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(1158): см. ссылку на создание экземпляров функции шаблон при компиляции "std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)"
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=unsigned int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtree(1158): см. ссылку на создание экземпляров функции шаблон при компиляции "std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_buy<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>::_Buynode<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)"
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=unsigned int
+                 ]
+                 d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\player.cpp(92): см. ссылку на создание экземпляров функции шаблон при компиляции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<std::pair<unsigned int,double>>(_Valty &&)"
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=unsigned int
+         ,            _Pr=std::less<unsigned int>
+         ,            _Alloc=std::allocator<std::pair<const unsigned int,unsigned int>>
+         ,            _Valty=std::pair<unsigned int,double>
+                 ]
+                 d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\player.cpp(92): см. ссылку на создание экземпляров функции шаблон при компиляции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<std::pair<unsigned int,double>>(_Valty &&)"
+                 with
+                 [
+                     _Kty=unsigned int
+         ,            _Ty=unsigned int
+         ,            _Pr=std::less<unsigned int>
+         ,            _Alloc=std::allocator<std::pair<const unsigned int,unsigned int>>
+         ,            _Valty=std::pair<unsigned int,double>
+                 ]
+         main.cpp
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\main.cpp(12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         gen_rand.cpp
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\gen_rand.cpp(41): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\gen_rand.cpp(63): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\gen_rand.cpp(107): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\gen_rand.cpp(113): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+         CardDeck.cpp
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\carddeck.cpp(16): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\carddeck.cpp(56): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
+     1>d:\загрузка торрент\mental_poker-master\mental_poker-master\mental_poker\carddeck.cpp(62): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Загрузка Торрент\Mental_poker-master\Mental_poker-master\Debug\Mental_Poker.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Загрузка Торрент\Mental_poker-master\Mental_poker-master\Debug\Mental_Poker.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Загрузка Торрент\Mental_poker-master\Mental_poker-master\Debug\Mental_Poker.lib" /MACHINE:X86 Debug\CardDeck.obj
+         Debug\gen_rand.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Mental_Poker.vcxproj -> D:\Загрузка Торрент\Mental_poker-master\Mental_poker-master\Debug\Mental_Poker.exe
+     1>Сборка проекта "D:\Загрузка Торрент\Mental_poker-master\Mental_poker-master\Mental_Poker\Mental_Poker.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:13.05

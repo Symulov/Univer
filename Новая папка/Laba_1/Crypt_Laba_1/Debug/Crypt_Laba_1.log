@@ -1,0 +1,7 @@
+﻿  Person.cpp
+  my_rand.cpp
+  main.cpp
+c:\users\aleksandr\documents\visual studio 2015\projects\crypt_laba_1\crypt_laba_1\main.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Crypt_Laba_1.vcxproj -> c:\users\aleksandr\documents\visual studio 2015\Projects\Crypt_Laba_1\Debug\Crypt_Laba_1.exe
+  Crypt_Laba_1.vcxproj -> c:\users\aleksandr\documents\visual studio 2015\Projects\Crypt_Laba_1\Debug\Crypt_Laba_1.pdb (Partial PDB)
